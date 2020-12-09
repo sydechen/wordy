@@ -1,0 +1,11 @@
+.show-mobile {
+    @media (min-width: $desktop-bpoint + .01rem) {
+        display:none;
+    }
+}
+
+.show-desktop {
+    @media (max-width: $desktop-bpoint) {
+        display:none;
+    }
+}
